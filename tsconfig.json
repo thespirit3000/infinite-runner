@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
-    "target": "esnext",
-    "module": "esnext",
+    "target": "es2016",
+    "module": "es6",
     "strict": true,
     "noImplicitAny": false,
     "noEmit": true,
@@ -18,7 +18,7 @@
       "~/*": ["./*"]
     },
     "typeRoots": ["node_modules/@types", "node_module/phaser/types"],
-    "types": ["Phaser"]
+    "types": ["phaser"]
   },
   "include": ["src/**/*", "index.d.ts"]
 }

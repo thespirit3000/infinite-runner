@@ -7,6 +7,14 @@ module.exports = {
   entry: "./src/index.ts",
   mode: "development",
   devtool: "inline-source-map",
+  resolve: {
+    extensions: [".js", ".jsx", ".ts", ".tsx", ".json"],
+    alias: {
+      types: path.resolve(__dirname, "src/types"),
+      components: path.resolve(__dirname, "src/components"),
+      "@": path.resolve(__dirname, "src"),
+    },
+  },
   module: {
     rules: [
       {

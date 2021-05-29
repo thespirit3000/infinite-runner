@@ -17,7 +17,7 @@
   "homepage": "https://github.com/thespirit3000/phaser3-ts-template.git",
   "devDependencies": {
     "@babel/core": "^7.7.2",
-    "@babel/preset-env": "^7.7.1",
+    "@babel/preset-env": "^7.14.4",
     "@typescript-eslint/eslint-plugin": "^4.25.0",
     "@typescript-eslint/parser": "^4.25.0",
     "babel-loader": "^8.0.6",
@@ -35,6 +35,8 @@
     "webpack-merge": "^4.2.2"
   },
   "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.13.0",
+    "@babel/preset-typescript": "^7.13.0",
     "phaser": "^3.50.0"
   }
 }
