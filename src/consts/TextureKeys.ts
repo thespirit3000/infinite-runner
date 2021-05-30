@@ -9,6 +9,7 @@ enum TextureKeys {
   FlameOn = "flame-on",
   LaserEnd = "laser-end",
   LaserMiddle = "laser-middle",
+  Coin = "coin",
 }
 
 export default TextureKeys;
